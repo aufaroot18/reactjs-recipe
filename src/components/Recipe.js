@@ -27,8 +27,9 @@ class Recipe extends React.Component {
 					<div className="card-body">
 						<h5 className="card-title">{recipe.title}</h5>
 						<p className="card-text">Publisher: {recipe.publisher}</p>
+						<p className="card-text">Website: <a href={recipe.source_url}>{recipe.title}</a></p>
 						<button className="btn btn-primary">
-							<Link to={"/"}>Home</Link>
+							<Link to={"/"}><span className="text-white">Home</span></Link>
 						</button>
 					</div>
 				</div>

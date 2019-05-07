@@ -7,10 +7,6 @@ img {
   height: 220px;
 }
 
-a {
-  color: #fff;
-}
-
 button:focus {
   outline: none;
 }

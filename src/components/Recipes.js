@@ -19,7 +19,7 @@ const Recipes = (props) => (
 										pathname: `/recipe/${recipes.recipe_id}`,
 										state: {recipes: recipes.recipe_id}
 									}}>
-										View Recipe
+										<span className="text-white">View Recipe</span>
 									</Link>
 								</button>
 							</div>
